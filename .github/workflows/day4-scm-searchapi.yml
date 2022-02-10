@@ -148,7 +148,7 @@ jobs:
       indexerFunctionName: ${{ steps.infrastructure.outputs.indexerFunctionName }}
 
     env:
-      RESOURCE_GROUP_NAME: rg-scm-devday4
+      RESOURCE_GROUP_NAME: dev
       RESOURCE_GROUP_LOCATION: westeurope
       ENV_NAME: devd4
 
